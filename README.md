@@ -12,13 +12,18 @@ __Note:__ this branch is an on-campus version of the for __spring 2019 YSDA and 
 * __Git-course.__ Know a way to make the course better? Noticed a typo in a formula? Found a useful link? Made the code more readable? Made a version for alternative framework? You're awesome! [Pull-request](https://help.github.com/articles/about-pull-requests/) it!
 
 # Course info
-* Lecture slides are [here](https://yadi.sk/d/loPpY45J3EAYfU).
-* Telegram chat room for YSDA & HSE students is [here](https://t.me/joinchat/CDFcMVcoAQvEiI9WAo1pEQ)
-* Grading rules for YSDA & HSE students is [here](https://github.com/yandexdataschool/Practical_RL/wiki/Homeworks-and-grading)
-* Online student __[survival guide](https://github.com/yandexdataschool/Practical_RL/wiki/Online-student's-survival-guide)__
-* Installing the libraries - [guide and issues thread](https://github.com/yandexdataschool/Practical_RL/issues/1)
-* Anonymous [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdurWw97Sm9xCyYwC8g3iB5EibITnoPJW2IkOVQYE_kcXPh6Q/viewform) for everything that didn't go through e-mail.
-* [About the course](https://github.com/yandexdataschool/Practical_RL/wiki/Practical-RL)
+* __Chat room__ for YSDA & HSE students is [here](https://t.me/joinchat/CDFcMVcoAQvEiI9WAo1pEQ)
+* __Grading__ rules for YSDA & HSE students is [here](https://github.com/yandexdataschool/Practical_RL/wiki/Homeworks-and-grading)
+
+* __FAQ:__ [About the course](https://github.com/yandexdataschool/Practical_RL/wiki/Practical-RL), [Technical issues thread](https://github.com/yandexdataschool/Practical_RL/issues/1), [Lecture Slides](https://yadi.sk/d/loPpY45J3EAYfU), [Online Student Survival Guide](https://github.com/yandexdataschool/Practical_RL/wiki/Online-student's-survival-guide)
+
+* Anonymous [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdurWw97Sm9xCyYwC8g3iB5EibITnoPJW2IkOVQYE_kcXPh6Q/viewform).
+
+* Virtual course environment: 
+    * [Installing dependencies](https://github.com/yandexdataschool/Practical_RL/issues/1) on your local machine (recommended).
+    * [__google colab__](https://colab.research.google.com/) - set open -> github -> yandexdataschool/pracical_rl -> {branch name} and select any notebook you want.
+    * Alternatives: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/yandexdataschool/Practical_RL/master) and [Azure Notebooks](https://notebooks.azure.com/).
+
 
 # Additional materials
 * [RL reading group](https://github.com/yandexdataschool/Practical_RL/wiki/RL-reading-group)
@@ -28,12 +33,31 @@ __Note:__ this branch is an on-campus version of the for __spring 2019 YSDA and 
 
 The syllabus is approximate: the lectures may occur in a slightly different order and some topics may end up taking two weeks.
 
-* __week01_intro__ Introduction
+* [__week01_intro__](./week01_intro) Introduction
   * Lecture: RL problems around us. Decision processes. Stochastic optimization, Crossentropy method. Parameter space search vs action space search.
   * Seminar: Welcome into openai gym. Tabular CEM for Taxi-v0, deep CEM for box2d environments.
   * Homework description - see week1/README.md. 
-  * **HSE Deadline: TBA**
-  * **YSDA Deadline: TBA**
+
+* [__week02_value_based__](./week02_value_based) Value-based methods
+  * Lecture: Discounted reward MDP. Value-based approach. Value iteration. Policy iteration. Discounted reward fails.
+  * Seminar: Value iteration.  
+  * Homework description - see week2/README.md. 
+  
+* [__week03_model_free__](./week03_model_free) Model-free reinforcement learning
+  * Lecture: Q-learning. SARSA. Off-policy Vs on-policy algorithms. N-step algorithms. TD(Lambda).
+  * Seminar: Qlearning Vs SARSA Vs Expected Value SARSA
+  * Homework description - see week3/README.md. 
+
+* __week04__ Approximate (deep) RL
+* __week05__ Exploration
+* __week06__ Policy Gradient methods
+* __week07__ Applications I
+* __week{++i}__ Partially Observed MDP
+* __week{++i}__ Advanced policy-based methods
+* __week{++i}__ Applications II
+* __week{++i}__ Distributional reinforcement learning
+* __week{++i}__ Inverse RL and Imitation Learning
+
 
 # Course staff
 Course materials and teaching by: _[unordered]_
@@ -44,7 +68,7 @@ Course materials and teaching by: _[unordered]_
 - [Dmitry Nikulin](https://github.com/pastafarianist) - tons of fixes, far and wide
 - [Mikhail Konobeev](https://github.com/MichaelKonobeev) - seminars, hw checkups
 - [Ivan Kharitonov](https://github.com/neer201) - seminars, hw checkups
-- [Ravil Khasanov](https://github.com/zshrav) - seminars, hw checkups
+- [Ravil Khisamov](https://github.com/zshrav) - seminars, hw checkups
 - [Fedor Ratnikov](https://github.com/justheuristic) - admin stuff
 
 # Contributions
@@ -54,5 +78,4 @@ Course materials and teaching by: _[unordered]_
 * A lot of fixes from [arogozhnikov](https://github.com/arogozhnikov)
 * Other awesome people: see github [contributors](https://github.com/yandexdataschool/Practical_RL/graphs/contributors)
 * [Alexey Umnov](https://github.com/alexeyum) helped us a lot during spring2018
-
 
